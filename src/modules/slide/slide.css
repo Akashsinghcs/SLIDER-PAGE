@@ -1,0 +1,39 @@
+.slideContainer {
+    display:  flex;
+    flex-direction: column;
+}
+
+.animalImage {
+    height: 50%;
+    max-height: 300px;
+    width: 100%;
+}
+
+.animalName {
+    color: #fff;
+    font-size : 16px;
+    padding: 6px;
+}
+
+.animalDescription {
+    color: #fff;
+    font-size: 12px;
+    margin: 6px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+.videoContainer {
+    position: fixed;
+    z-index: 100000;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
